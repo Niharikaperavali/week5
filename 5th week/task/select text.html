@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Update Image Source</title>
+</head>
+<body>
+  <img id="imageElement" src="https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Old Image">
+  <button onclick="changeImage()">Change Image</button>
+  <script>
+    function changeImage() {
+      
+      var img = document.getElementById('imageElement');
+      
+      
+      img.src = 'https://www.tajmahal.gov.in/images/nightview.jpg';
+    }
+  </script>
+</body>
+</html>

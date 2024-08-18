@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Parent Border Color</title>
+</head>
+<body>
+  <div id="parentElement" style="padding: 30px;">
+    <div id="childElement">welcome to my page</div>
+  </div>
+  <script>
+    
+    var child = document.getElementById('childElement');
+    
+   
+    var parent = child.parentElement;
+    
+    
+    parent.style.border = '2px solid green';
+  </script>
+</body>
+</html>
